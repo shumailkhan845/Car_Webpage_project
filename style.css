@@ -1,0 +1,102 @@
+.body
+{
+    background-color: #081b29;
+}
+.navbar-brand
+{
+    color: #00abf0 !important;
+}
+.navbar-toggler
+{
+    color: #00abf0 !important;
+}
+.nav-item a:hover,
+.nav-item a.active
+{
+    color: #00abf0 !important; 
+    transition: .5s; 
+}
+.dropdown-toggle::after 
+{
+    display: none !important;
+}
+.myfooter
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 15rem !important;
+}
+.signup-btn
+{
+    background: transparent;
+    color: #00abf0 !important;
+    border: 2px solid #00abf0 !important;
+}
+.signup-btn :hover
+{
+    background-color: #00abf0 !important;
+    color: #081b29 !important;
+}
+.my-icon
+{
+    margin-top: 4rem;
+    width: 12rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.my-icon a
+{
+    position: relative;
+    text-decoration: none;
+    width: 2rem;
+    height: 2rem;
+    color: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+.my-icon :hover
+{
+    color: #081b29;
+}
+.my-icon a::before
+{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #00abf0;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.5s;
+}
+.my-icon a:hover::before
+{
+    width: 100%;
+}
+
+.card
+{
+    background-color: black !important;
+    color: #00abf0 !important;
+}
+.card img
+{
+    border-radius: 4px !important;
+}
+
+
